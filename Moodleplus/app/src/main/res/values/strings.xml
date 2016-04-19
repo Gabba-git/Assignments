@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Moodleplus</string>
+    <string name="title_activity_tab_view">Course</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="common_url">http://192.168.0.115</string>
+</resources>

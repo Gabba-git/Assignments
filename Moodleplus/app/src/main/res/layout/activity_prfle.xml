@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="#FFFFCC"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.arvind.moodleplus.Prfle">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/butt"
+        android:text="Apply Changes"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Profile"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:id="@+id/Profile"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:id="@+id/fnme"
+        android:layout_below="@+id/Profile"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="First Name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:id="@+id/lnme"
+        android:layout_below="@+id/fnme"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Last Name"
+        android:layout_alignRight="@+id/fnme"
+        android:layout_alignEnd="@+id/fnme" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:id="@+id/usrnme"
+        android:layout_below="@+id/lnme"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Username"
+        android:layout_alignRight="@+id/lnme"
+        android:layout_alignEnd="@+id/lnme" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/eml"
+        android:layout_below="@+id/usrnme"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Email"
+        android:layout_alignRight="@+id/usrnme"
+        android:layout_alignEnd="@+id/usrnme" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:id="@+id/Enum"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/eml"
+        android:layout_alignRight="@+id/eml"
+        android:hint="Entry No"
+        android:layout_alignEnd="@+id/eml" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginTop="15dp"
+        android:hint="Type"
+        android:ems="10"
+        android:id="@+id/Type"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Enum"
+        android:layout_alignRight="@+id/Enum"
+        android:layout_alignEnd="@+id/Enum" />
+
+
+</RelativeLayout>
