@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">My Complain</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="navitem1">Notification</string>
+    <string name="navitem2">Add Complain</string>
+    <string name="navitem3">My Complain</string>
+    <string name="navitem4">All Complain</string>
+    <string name="navitem5">Settings</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="nav_labels">
+        <item>@string/navitem1</item>
+        <item>@string/navitem2</item>
+        <item>@string/navitem3</item>
+        <item>@string/navitem4</item>
+        <item>@string/navitem5</item>
+    </string-array>
+
+    <string name="title1">Notification</string>
+    <string name="title2">Complain</string>
+    <string name="title3">My Complain</string>
+    <string name="title4">All Complain</string>
+    <string name="title5">Settings</string>
+    <string name="signout">Sign Out</string>
+    <string name="action_search">Search</string>
+    <string name="rdb1">Personal</string>
+    <string name="rdb2">Hostel</string>
+    <string name="rdb3">Institute</string>
+    <string name="order">Order using</string>
+    <string name="created">Created_at</string>
+    <string name="upvote">Upvote</string>
+    <string name="downvote">Downvote</string>
+    <string name="location">Location</string>
+    <string name="order2">Order</string>
+    <string name="ascned">Asc</string>
+    <string name="descend">Desc</string>
+    <string name="common_url">http://10.192.63.13</string>
+</resources>
