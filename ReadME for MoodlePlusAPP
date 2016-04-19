@@ -1,0 +1,15 @@
+Backend is developed in web2py framework.
+populate data using moodle-plus folder.
+
+two types of users ...
+
+for student ....   user id cs1110200
+		   password :  john
+
+for prof.          user id vinay
+		   password vinay
+
+
+
+///////////   change the string item = "common-url" with ur system ip in string.xml file.... //////////
+///////////  use server port 5000 and ... run it on public server ip ... ///////
