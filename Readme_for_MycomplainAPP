@@ -1,0 +1,15 @@
+Backend is developed in PHP ....
+
+two types of users ...
+
+for normal user ....   user id ee1130455
+		   password :  ee1130455
+
+for admin          user id ee1130457
+		   password ee1130457
+
+some features wont work because tht s nt developend in backend side ....
+
+////////////   change the string item = "common-url" with ur system ip in string.xml file.... //////////
+
+
