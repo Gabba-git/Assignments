@@ -1,0 +1,47 @@
+<?php
+
+$servername = "localhost";
+$username = "Dharmendra";
+$password = "ee1130451";
+$dbname = "complaint_system";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+//GET Username and password and call login function
+if( $_GET["user"] and $_GET["pass"])
+{
+	$user = $_GET["user"];
+	$pass = $_GET["pass"];
+	login($user,$pass);
+}
+else{
+	echo "Please enter username and password";
+}
+
+//Login method
+function login($user, $pass) {
+	global $conn;
+	$user= mysql_real_escape_string($user);
+    $sql = "SELECT user_id,user_pass from users WHERE user_id = $user";
+	$result = $conn->query($sql);
+	if ($result->num_rows > 0){
+		$row = $result->fetch_assoc(); 
+		if($row["user_pass"]===$pass){		
+			echo json_encode($row);		
+		}
+		else{
+			echo "Password is wrong ";
+		}
+    }
+	else {
+	    echo "user doesn't exist ";
+	}		
+}
+$conn->close();
+?>
