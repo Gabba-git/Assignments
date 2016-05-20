@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intern</string>
+    <string-array name="time_range">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+</resources>
